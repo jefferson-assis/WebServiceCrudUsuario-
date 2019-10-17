@@ -1,5 +1,5 @@
 <?php
-	$conecta = mysqli_connect()
+	$conecta = mysqli_connect();
 
 	$codigo = $_POST['codigo'];
 

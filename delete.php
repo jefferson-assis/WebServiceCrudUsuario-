@@ -1,5 +1,5 @@
 <?php
-	$conecta = mysqli_connect();
+	$conecta = mysqli_connect("localhost", "id11034168_root	", "webhost", "id11034168_crudusuario");
 
 	$codigo = $_POST['codigo'];
 

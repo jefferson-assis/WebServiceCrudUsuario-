@@ -1,5 +1,5 @@
 <?php
-	$conecta = mysqli_connect();
+	$conecta = mysqli_connect("localhost");
 
 	$nome = $_POST['nome'];
 	$email = $_POST['email'];
